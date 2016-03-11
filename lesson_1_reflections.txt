@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+diff filtered the files by displaying only the line differences
+this made noticing the bug a lot easier as compared to scanning line by 
+line
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+It enables you to log changes that occur in the program with the changes 
+in the file(s)
+It also enables a programmer to return to a previous level of the 
+program at will
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+pro - you're able to commit changes logically
+pro - flexibility
+con - forgetting to commit for a while can lead to a large subsequent 
+commit
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+I think this is because of the application or use case.
+For git which is intended for programmers, saving multiple files allows 
+tracking of changes which may involve different files
+For Google Docs, it's not necessary to track multiple files 
+simultaneously as the average user intends to use it to store user files 
+not related to source code
+How can you use the commands git log and git diff to view the history of files?
+git log helps view the various commits made.
+git diff shows the differences between changed files in these commits 
+Using the two commands together, you're able to tell the progressive changes of each of the commits made
+How might using version control make you more confident to make changes that could break something?
+With version control previous commits are able to illustrate the previously saved versions of the repository.
+This limits the effect of changing code as previous states can be restored thus boosting the developer's confidence
+Now that you have your workspace set up, what do you want to try using Git for?
+Projects, fun, more fun and trying new things!!
