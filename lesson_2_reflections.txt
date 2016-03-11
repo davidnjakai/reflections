@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 A hidden folder is created that stores metadata concerning the main folder (repository) and git information
 Initialization ensures git knows the current folder is a repository and thus one can track changes made to the files
+How can you use the staging area to make sure you have one commit per logical change?
+You are able to ensure that all the commits being done involve only the files you're concerned with
+You are also able to see the changes between files in the working dir and S.area and between S.area and the most recent commit
