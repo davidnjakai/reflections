@@ -13,3 +13,8 @@ It helps determine what set of commits are being tracked by git log from the HEA
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches consolidates the commits and lists them by date/time when git log command is executed.
 The diagram is represented the way it is to help visualize at which point the two branches were combined.
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Automatic merging speeds up the process of getting features in one branch working in the subject branch.
+However, this may lead to some features being added that the subject branch's developer (may be experimental) did not want to include.
+Manual merging gives the developer more control over which code they should include in the final version.
+However, this would consume a lot of time.
