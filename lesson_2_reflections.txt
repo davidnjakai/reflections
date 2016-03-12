@@ -10,3 +10,6 @@ development or current functionality of the main one.
 How do the diagrams help you visualize the branch structure?
 The tree structure helps illustrate and conceptualize how branches work
 It helps determine what set of commits are being tracked by git log from the HEAD
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches consolidates the commits and lists them by date/time when git log command is executed.
+The diagram is represented the way it is to help visualize at which point the two branches were combined.
