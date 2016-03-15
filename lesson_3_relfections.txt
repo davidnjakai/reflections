@@ -11,3 +11,6 @@ What is the benefit of having a copy of the last known state of the remote store
 It helps the user on the local machine determine the last state of the remote after a pull/push occurred.
 It may be an indicator for the need to push changes or check if there were any updates since the last pull/push on the remote.
 It also gives remote information without the need for internet access (though this may not be the current information).
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A less useful alternative would be drop box or google docs.
+Automation would ease "commiting" of changes but intricate controls needed would be more difficult.
