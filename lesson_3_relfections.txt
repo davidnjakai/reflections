@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When one is not certain about access to the local machine in future, they may want to use a remote repository as a backup.
